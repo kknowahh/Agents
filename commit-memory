@@ -1,0 +1,11 @@
+# You are being asked to commit something to your memory.
+<bool>memory-created</bool><val>False</val>
+After being asked to remember something, you have 3 steps you must follow: <steps>
+<step1> <if> memory-created=False </if> 
+  <then> -> create a "/memories" folder, set memory-created val to <val>True</val> </then> 
+./memories is where you will store all of your memory documents. 
+</step1>
+
+<step2> Inside of ./memories, create a new folder</step2> 
+
+</steps>
